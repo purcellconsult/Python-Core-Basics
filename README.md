@@ -5,7 +5,10 @@ This is the most comprehensive section of the book.
 
 Here are some of the details that are discussed in this chapter:
 
-*list
-*tuples
-*sequences
+<ul>
+  <li>list</li>
+  <li> tuples</li>
+  <li> sequences</li>
+</ul>
+  
 
