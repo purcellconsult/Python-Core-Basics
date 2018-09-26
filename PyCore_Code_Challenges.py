@@ -1,4 +1,4 @@
-"""Coding challenges from chapter two of my Python Book!
+"""Coding challenges for chapter two of my Python Book!
 Author: Doug Purcell
 Website: http://www.purcellconsult.com"""
 
