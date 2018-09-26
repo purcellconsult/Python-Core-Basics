@@ -855,4 +855,4 @@ Here's the output:
 >>> bubble_sort(items)
 [7, 12, 37, 37, 38, 43, 54, 67, 78, 83, 92, 92, 93, 101, 128, 139, 156]
 ```
-<h2><a href="https://github.com/purcellconsult/Python-Core-Basics/blob/master/PyCore_Code_Challenges.py"> Solutions to the coding challenges </a></h2>
+<h3><u><a href="https://github.com/purcellconsult/Python-Core-Basics/blob/master/PyCore_Code_Challenges.py"> Solutions to the coding challenges </a></u></h3>
