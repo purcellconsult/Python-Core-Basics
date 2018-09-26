@@ -1,5 +1,6 @@
 <h1><center> The Monster Crash Course in Python </center></h1>
 
+<img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/monster.jpg" alt="" />
 
 ###### Monster: Art in Bloom 2009: Storming Party in Art Museum - Seongbin Im - Image - CC BY 2.0
 
@@ -88,11 +89,9 @@ The length of a list is the total amount of elements that it contains, and you c
 ```python
 >>> characters[len(characters) – 1] 
 ```
-Here’s a diagram that visually represents the following list in Python:
+Here's a diagram that visually represents the following list in Python:
 
-```python
->>> numbers = [29101, 7.229, True, "Hi", 'A']
-```
+<img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2_Python_List_Visual.png" alt="" width="260" height="242" />
 
 ###### Figure 2.0: Python List Visual.
 
