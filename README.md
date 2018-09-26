@@ -93,7 +93,7 @@ Here's a diagram that visually represents the following list in Python:
 
 <img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2_Python_List_Visual.png" alt="" width="260" height="242" />
 
-###### Figure 2.0: Python List Visual.
+###### Python List Visual.
 
 They say a picture is worth a thousand words so ideally the diagram clarifies lists for you. The list in Python is considered a sequence type, and sequence types in Python have a set number of operations. Below is a list of some of the operators that can be applied to sequence types. 
 
@@ -160,7 +160,7 @@ Oops! Remember, tuples are immutable so once created the elements can’t be cha
 >>> c
 ((1, 2, 3), (2, 1, 5))
 ```
-Therefore, if you’re writing code in which an immutable object is required then a tuple is a good choice to consider.  Tuples are commonly used as keys for dictionaries. 
+Therefore, if you're writing code in which an immutable object is required then a tuple is a good choice to consider. Tuples are commonly used as keys for dictionaries. 
 
 ### Dictionaries
 
@@ -230,6 +230,7 @@ Also, like with normal indexes you can also access negative indexes, for example
 ['pasta', 'potatoes', 'bread', 'milk']
 ```
 Also, if you add an additional colon then you can create a subset of the list by defining the step that you can take with each increment. 
+
 ```python
 >>> b[0:6:2]
 [1, 1, 1]
@@ -237,7 +238,7 @@ Also, if you add an additional colon then you can create a subset of the list by
 
 ### Strings and Common Operations in Python
 
-If you’re new to programming and never heard of strings then just think of it as a bunch of text. There are three ways in which you can represent text in Python. You can use single quote strings, double quotes, or triple quotes. For example, the following are all valid ways in which you can create strings in Python. 
+If you're new to programming and never heard of strings then just think of it as a bunch of text. There are three ways in which you can represent text in Python. You can use single quote strings, double quotes, or triple quotes. For example, the following are all valid ways in which you can create strings in Python. 
 
 ```python
 >>> a = "Hello World"
@@ -249,7 +250,7 @@ To get a good idea of how strings work let's take a look at the following diagra
 
 <img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2.1_Python_String_Example.png">
 
-###### Figure 2.3 The String Index Diagram in Python.
+###### The String Index Diagram in Python.
 
 As you can see from the above diagram, a string is like a list of characters. Each character in a string can be accessed at its index which starts at 0 and goes up to the length of the string minus one. Therefore, to access the first element of the string you can do this:
 ```python
@@ -341,12 +342,14 @@ The below diagram illustrates the logic behind elif statements in Python:
 ### While loop
 
 In plain English, the while loop states "that while something is true, then do this." A simple example from the real world is while its business hours, keep the store open. Now, let’s translate this logic into Python pseudo code:
+
 ```python
 while condition is True:
 	do this
 ```
 
 Below are some examples that show how to use while loops in Python. 
+
 ``` python
 x = 1
 while x < 5:
@@ -358,7 +361,7 @@ x =  2
 x =  3
 x =  4
 ```
-Here’s a list of some of the Fibonacci numbers:
+Here's a list of some of the Fibonacci numbers:
 
     1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,...
 
@@ -372,7 +375,7 @@ while n <= 99:
     count+=1
  ```
 
-Here’s an alternative sequence for Fibonacci numbers: 
+Here's an alternative sequence for Fibonacci numbers: 
 
     0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …
 
@@ -456,6 +459,7 @@ for x in range(0,11,2):
 ```
 
 You can nest loops as many levels as you wish, or including a loop inside another. For example, here’s a triple loop, or two loops inside another loop: 
+
 ```python
 for i in range(1,10):
     for j in range(1,3):
@@ -490,6 +494,7 @@ while(True):
    ```
 
 The above prints the numbers from 0 to 1000 and breaks or terminates at 1000. This is important because the condition of `while(True)` means that the loop will iterate indefinitely because that condition is always `True`. Therefore, a way to exit out of the loop is to inject a conditional that triggers the end of a loop. The `continue` statement does the opposite. It skips the body statements once the condition is `True`: 
+
 ```python
 while(x < 10):
     x+=1
@@ -579,7 +584,7 @@ for x in animals:
 
     okapi
 
-You could alternatively use the while loop to iterate over lists.  You’ll need the help of the built-in `len()` function so that you know where to increment up to. Below is an example of how you’ll accomplish this with a while loop:
+You could alternatively use the while loop to iterate over lists. You’ll need the help of the built-in `len()` function so that you know where to increment up to. Below is an example of how you’ll accomplish this with a while loop:
 
 ```python
 animals =  ["lion", "fossa", "okapi", "spider crab", "maned wolf"]
@@ -611,6 +616,7 @@ def function_name(parameters)
  ```
  
 The word `def` is a reserved keyword which you can use to represent that you have created your function. The `return` keyword is a reserved word that reveals that the function returns a value when called. Below is a list of simple functions in mathematics converted to Python: 
+
 ```python
 def square(n):
     return n * n
@@ -659,6 +665,7 @@ def sounds(goat = "bleat", mice = "squeak", oxen = "moo", horses = "neigh"):
     Horses bark
 
 Python also includes two helpful conventions when it comes to creating functions which are the `*` and `**` symbols. When a single star is used then you can pass in an arbitrary number of arguments into the function. Even though `args` is typically used as the parameter, it can in fact be any name. An example of the function in action is listed below:
+
 ```python
 def fun(*args):
     for x in args:
@@ -761,6 +768,7 @@ However, you can make your code more compact by using the `reduce()` function. F
 18
 ```
 There’s also something called list comprehensions which are a syntactic construct that allows for the creation of new lists based on existing ones. For example, let’s say that we want to create a list of booleans that returns `True` or `False` for the first 10 positive digits. We want to return `True` if the digit is greater than 5, and `False` any other time. One way to do this would be as follows: 
+
 ```python
 truth = []
 for i in range(1,11):
