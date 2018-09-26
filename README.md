@@ -1,6 +1,6 @@
 <h1><center> The Monster Crash Course in Python </center></h1>
 
-<img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/monster.jpg" alt="" />
+<img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/monster.png">
 
 ###### Monster: Art in Bloom 2009: Storming Party in Art Museum - Seongbin Im - Image - CC BY 2.0
 
@@ -92,8 +92,6 @@ The length of a list is the total amount of elements that it contains, and you c
 Here's a diagram that visually represents the following list in Python:
 
 <img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/list.png" />
-
-###### Python List Visual.
 
 They say a picture is worth a thousand words so ideally the diagram clarifies lists for you. The list in Python is considered a sequence type, and sequence types in Python have a set number of operations. Below is a list of some of the operators that can be applied to sequence types. 
 
@@ -250,8 +248,6 @@ To get a good idea of how strings work let's take a look at the following diagra
 
 <img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/strings.png">
 
-###### The String Index Diagram in Python.
-
 As you can see from the above diagram, a string is like a list of characters. Each character in a string can be accessed at its index which starts at 0 and goes up to the length of the string minus one. Therefore, to access the first element of the string you can do this:
 ```python
 >>> a[0]
@@ -297,8 +293,6 @@ CORRECT!
 In the above diagram the diamond represents the expression to be tested which is 5 < 10. Since it evaluates to True, 
 the statements in the body are executed. 
 
-### if-else statement
-
 The following code snippet represents an if-else statement in Python:
 
 ```python
@@ -313,9 +307,6 @@ else:
 It's similar to the if statement except that it also has an else statement which is executed by default if the text expression evaluates to False. The below diagram illustrates how this works:
 
 <img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/ifelse.png" />
-
-###### if-else-then diagram
-
 
 ### elif statement 
 
@@ -336,8 +327,6 @@ else:
 The below diagram illustrates the logic behind elif statements in Python: 
 
 <img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/elif.png" />
-
-###### *elif statements diagram.* 
 
 ### While loop
 
@@ -767,7 +756,7 @@ However, you can make your code more compact by using the `reduce()` function. F
 >>> reduce(lambda x, y: x + y, data)
 18
 ```
-There’s also something called list comprehensions which are a syntactic construct that allows for the creation of new lists based on existing ones. For example, let’s say that we want to create a list of booleans that returns `True` or `False` for the first 10 positive digits. We want to return `True` if the digit is greater than 5, and `False` any other time. One way to do this would be as follows: 
+There's also something called list comprehensions which are a syntactic construct that allows for the creation of new lists based on existing ones. For example, let’s say that we want to create a list of booleans that returns `True` or `False` for the first 10 positive digits. We want to return `True` if the digit is greater than 5, and `False` any other time. One way to do this would be as follows: 
 
 ```python
 truth = []
