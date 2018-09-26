@@ -245,7 +245,7 @@ If you’re new to programming and never heard of strings then just think of it 
 >>> c = 'Hello World'
 >>> d = '''Hello World'''
 ```
-To get a good idea of how strings work let’s take a look at the following diagram:
+To get a good idea of how strings work let's take a look at the following diagram:
 
 
 
@@ -311,6 +311,8 @@ else:
 
 It's similar to the if statement except that it also has an else statement which is executed by default if the text expression evaluates to False. The below diagram illustrates how this works:
 
+
+<img src="https://github.com/purcellconsult/Python-Core Basics/blob/master/Figure_2.2_Python_if_statement_control_flow_statement.png" />
 
 ###### if-else-then diagram
 
