@@ -850,11 +850,9 @@ Write a loop that tests the input in the range of -10...150. Here’s some sampl
 
     items = [92, 7, 38, 37, 92, 37, 12, 54, 43, 67, 78, 83, 93, 101, 128, 139, 156]
     
-Here’s the output:
+Here's the output:
 ```python
 >>> bubble_sort(items)
 [7, 12, 37, 37, 38, 43, 54, 67, 78, 83, 92, 92, 93, 101, 128, 139, 156]
 ```
-
-
-```
+<h2><a href="https://github.com/purcellconsult/Python-Core-Basics/blob/master/PyCore_Code_Challenges.py"> Solutions to the coding challenges </a></h2>
