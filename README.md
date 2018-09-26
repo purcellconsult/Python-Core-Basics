@@ -1,4 +1,4 @@
-## The Monster Crash Course in Python
+<h1><center> The Monster Crash Course in Python </center></h1>
 
 
 ###### Monster: Art in Bloom 2009: Storming Party in Art Museum - Seongbin Im - Image - CC BY 2.0
@@ -29,6 +29,7 @@ However, there are some rules that Python programmers must follow when creating 
 	 -    `>>> mymessage_ = "wake up"`
 - Variable names are case sensitive as `a = 5`, and `A = 10` are allowed.
 - It’s legal to reassign variables. For example, the following code snippet is allowed and legal: 
+
 ``` python
 >>> a = 1
 >>> a = 1.1
@@ -42,6 +43,7 @@ However, there are some rules that Python programmers must follow when creating 
 ### Lists
 
 Python has a built in data type known as a list that’s a mutable, or changeable ordered sequence of elements. A list could contain numbers, strings, booleans, tuples, sets, or other lists as elements. To create a list use the square bracket `[]` notation: 
+
 ``` python
 >>> []
 >>> [2, 4, 6, 8, 10]
