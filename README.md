@@ -93,8 +93,6 @@ Here's a diagram that visually represents the following list in Python:
 
 <img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2_Python_List_Visual.png" alt="" width="260" height="242" />
 
-###### Python List Visual.
-
 They say a picture is worth a thousand words so ideally the diagram clarifies lists for you. The list in Python is considered a sequence type, and sequence types in Python have a set number of operations. Below is a list of some of the operators that can be applied to sequence types. 
 
 ```python
@@ -250,8 +248,6 @@ To get a good idea of how strings work let's take a look at the following diagra
 
 <img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2.1_Python_String_Example.png">
 
-###### The String Index Diagram in Python.
-
 As you can see from the above diagram, a string is like a list of characters. Each character in a string can be accessed at its index which starts at 0 and goes up to the length of the string minus one. Therefore, to access the first element of the string you can do this:
 ```python
 >>> a[0]
@@ -314,8 +310,6 @@ It's similar to the if statement except that it also has an else statement which
 
 <img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2.3_python_if_else_statement.png" />
 
-###### if-else-then diagram
-
 
 ### elif statement 
 
@@ -336,8 +330,6 @@ else:
 The below diagram illustrates the logic behind elif statements in Python: 
 
 <img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2.4_elif_statements.png" />
-
-###### *elif statements diagram.* 
 
 ### While loop
 
