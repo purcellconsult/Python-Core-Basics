@@ -284,7 +284,7 @@ Like lists, strings can also be sliced:
 'Hello'
 ```
 
-if statement 
+### if statement 
 
 The following shows how the if-statement works in Python:
 
@@ -293,6 +293,7 @@ if 5 < 10:
 			 
 CORRECT!
 
+<img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2.2_Python_if_statement_control_flow_statement.png" />
   		
 In the above diagram the diamond represents the expression to be tested which is 5 < 10. Since it evaluates to True, 
 the statements in the body are executed. 
@@ -300,6 +301,7 @@ the statements in the body are executed.
 ### if-else statement
 
 The following code snippet represents an if-else statement in Python:
+
 ```python
 if 5 > 10:
     print("CORRECT")
@@ -311,8 +313,7 @@ else:
 
 It's similar to the if statement except that it also has an else statement which is executed by default if the text expression evaluates to False. The below diagram illustrates how this works:
 
-
-<img src="https://github.com/purcellconsult/Python-Core Basics/blob/master/Figure_2.2_Python_if_statement_control_flow_statement.png" />
+<img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2.3_python_if_else_statement.png" />
 
 ###### if-else-then diagram
 
@@ -334,6 +335,8 @@ else:
     1 is less than 2
 
 The below diagram illustrates the logic behind elif statements in Python: 
+
+<img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2.4_elif_statements.png" />
 
 ###### *elif statements diagram.* 
 
