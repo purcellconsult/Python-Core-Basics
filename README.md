@@ -247,9 +247,7 @@ If you’re new to programming and never heard of strings then just think of it 
 ```
 To get a good idea of how strings work let's take a look at the following diagram:
 
-
-
-
+<img src="https://github.com/purcellconsult/Python-Core-Basics/blob/master/Figure_2.1_Python_String_Example.png">
 
 ###### Figure 2.3 The String Index Diagram in Python.
 
